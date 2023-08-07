@@ -1,0 +1,540 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Great Vibes', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+#back{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%,
+     rgba(0, 0, 0, 0.8) 100%),url("raw material/IN-en-20230703-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+ 
+   width: 100%;   
+}
+nav{
+ padding: 1rem;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0rem 7rem;
+}
+#heading{
+font-size: 2.7rem;
+color: rgb(207, 7, 7);
+font-weight: bold;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+#intro{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#language{
+    border: 1px solid rgb(187, 184, 184);
+    padding:0.4rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: black;
+}
+#language select{
+    background-color: black;
+    color:white;
+    font-size: 1.1rem;
+}
+#sign_up{
+    margin-left: 1rem;
+    border: 2px solid rgb(226, 9, 9);
+    border-radius: 0.3rem;
+    color: white;
+    padding: 0.3rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(226, 9, 9);
+}
+#language{
+    color: aliceblue;
+}
+/* nav end and middle start */
+#middle{
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4rem;
+    height: 77vh;
+}
+.mid #middle_big{
+    font-size:2.8rem ;
+    text-align: center;
+}
+.mid #middle_medium{
+    font-size:1.8rem ;
+    text-align: center;
+}
+.mid #middle_small{
+    font-size:1.5rem ;
+    text-align: center;
+}
+#text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#input input{
+    padding: 0.8rem 0.5rem;
+    width:24rem;
+    background: transparent;
+    font-size: 1.1rem;
+    border: 1px solid gainsboro;
+    border-radius: 0.3rem;
+    color: aliceblue;
+}
+#click button{
+    padding: 0.5rem 0.5rem;
+    margin-left: 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.3rem;
+ background: #e50914; 
+ color: white;
+ font-weight:800;
+ width: 13rem;
+}
+#click button:hover{
+    background: #9b060d;   
+}
+/* middle end  */
+.line{
+    height: 0.6rem;
+    width: 100%;
+    background: #232323;
+}
+/*add start  */
+.add{
+    background: black;
+    color: white;
+    padding: 4.5rem;
+}
+.add_details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 4rem;
+}
+.add_writer h1{
+    font-size: 3rem;
+}
+.add_writer p{
+    margin-top: 0.3rem;
+font-size: 1.5rem;    
+}
+.add_pic img{
+width:40rem;
+ height: 20rem;
+}
+   #inform{
+    background: black;
+    color: white;
+
+   }
+   #f_head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 0rem;
+    
+   }
+   #f_head h2{
+    font-size: 2.7rem;
+   }
+   .ques{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+   }
+   .fa-plus{
+    font-size: 2.5rem;
+   }
+  .question1 {
+   background: #545353;
+   font-size: 1.8rem;
+   font-weight: bold;
+   padding: 1.1rem 1rem;
+   margin: 0.8rem;
+   width: 72%;
+  }
+  .answer1 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+ font-weight: lighter;
+ padding: 1.1rem 2rem;
+ display: none;
+  }
+  
+
+  .question2{
+    background: #545353;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.1rem 2rem;
+    margin: 0.8rem;
+    width: 72%;
+    cursor: pointer;
+   }
+   .answer2{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  font-weight: lighter;
+  display: none;
+   }
+   .question3{
+    background: #545353;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.1rem 2rem;
+    margin: 0.8rem;
+    width: 72%;
+   }
+   .answer3{
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  font-weight: lighter;
+  display: none;
+   }
+   .question4{
+    background: #545353;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.1rem 2rem;
+    margin: 0.8rem;
+    width: 72%;
+   }
+   .answer4 {
+    margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  display: none;
+  transition: 5ms;
+   }
+   .question5{
+    background: #545353;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.1rem 2rem;
+    margin: 0.8rem;
+    width: 72%;
+   }
+   .answer5 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  font-weight: lighter;
+  display: none;
+   }
+   .question6{
+    background: #545353;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.1rem 2rem;
+    margin: 0.8rem;
+    width: 72%;
+   }
+   .answer6 {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  font-weight: lighter;
+  display: none;
+   }
+   .open_answer{
+    display: contents;
+  }
+   #new_quote{
+    text-align: center;
+    margin: 1.5rem 0rem;
+   }
+   #new_quote p{
+    font-size: 1.2rem;
+   }
+   #fotter {
+    background: black;
+    color: aliceblue;
+    padding: 4.5rem 10rem;
+   }
+   #fotter p{
+    font-size: 1.1rem;
+   }
+   #fotter a{
+    color: rgb(143, 146, 146);
+    text-decoration:underline;
+   }
+   #foot{
+    display:flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 2.5rem;
+   }
+   .list li a{
+    color: rgb(143, 146, 146);
+    text-decoration:underline;
+   }
+   #lang{
+    border: 1px solid rgb(187, 184, 184);
+    padding:0.4rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: black;
+   }
+   #lang select{
+    background-color: black;
+    color:white;
+    font-size: 1.1rem;
+    width: fit-content;
+    margin: 1.2rem;
+}
+@media screen and (min-width:11px ) and (max-width:300px) {
+    nav{
+        padding: 0.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin: 0rem;
+       }
+       #intro{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .add_pic img{
+   display: none;
+        }
+}
+
+@media screen and (max-width:300px) {
+    nav{
+        padding:0.5rem 1rem;
+        margin: 0rem ;
+       }
+       #heading{
+       font-size: 1.5rem;
+       font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+       }
+       #language{
+           padding:0.3rem 0.2rem;
+       }
+       #language select{
+           font-size: 1rem;          
+       }
+       .fa-globe{
+        display: none;
+       }
+      
+       #sign_up{
+           margin-left: 0.2rem;
+           padding: 0.3rem;
+       }
+       #sign_up p{
+        font-size: 1rem;
+        font-weight: 200;
+       }
+       /* nav end and middle start */
+       #middle{
+        padding: 1rem 1.6rem;
+           line-height: 2rem;
+           height: 85vh;
+       }
+       .mid #middle_big{
+           font-size:1.7rem ;
+           margin-top: 1.4rem;
+       }
+       .mid #middle_medium{
+           font-size:1.4rem ;
+           margin-top: 1.4rem;
+       }
+       .mid #middle_small{
+           font-size:1.1rem ;
+           margin-top: 1rem;
+       }
+       #text{
+           display:flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+         
+       }
+       #input input{
+           padding: 0.8rem 0.5rem;
+           width:15rem;
+           margin-top: 1.4rem;
+       }
+       #click button{
+           padding: 0.5rem 0.5rem;
+           margin: 1.4rem 1.4rem;
+         font-size: 1.1rem;
+        font-weight:500;
+        width: 8rem;
+       }
+       /* middle end  */
+       /*add start  */
+.add{
+    padding: 1rem;
+}
+.add_details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0rem 4rem; */
+}
+.add_writer h1{
+    font-size: 2rem;
+}
+.add_writer p{
+    margin-top: 0.3rem;
+font-size: 1.2rem;    
+}
+.add_pic img{
+    width:15rem;
+     height: 13rem;
+    }
+   .ques{
+    font-size: 1.2rem;
+    font-weight: 100;
+   }
+   #f_head h2{
+    font-size:2rem;
+   }
+   #fotter {
+    padding: 0rem;
+   }
+   #fotter p{
+    font-size: 1rem;
+   }
+   #foot{
+    display:flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 2.5rem;
+    flex-direction: column;
+   }
+   
+}
+@media screen and (min-width:300px ) and (max-width:900px) {
+    nav{
+        padding:0.5rem 1rem;
+        margin: 0rem ;
+       }
+       #heading{
+       font-size: 1.5rem;
+       font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+       }
+       #language{
+           padding:0.3rem 0.2rem;
+       }
+       #language select{
+           font-size: 1rem;          
+       }
+       .fa-globe{
+        display: none;
+       }
+      
+       #sign_up{
+           margin-left: 0.2rem;
+           padding: 0.3rem;
+       }
+       #sign_up p{
+        font-size: 1rem;
+        font-weight: 200;
+       }
+       /* nav end and middle start */
+       #middle{
+        padding: 1rem 1.6rem;
+           line-height: 2rem;
+           height: 85vh;
+       }
+       .mid #middle_big{
+           font-size:1.7rem ;
+           margin-top: 1.4rem;
+       }
+       .mid #middle_medium{
+           font-size:1.4rem ;
+           margin-top: 1.4rem;
+       }
+       .mid #middle_small{
+           font-size:1.1rem ;
+           margin-top: 1rem;
+       }
+       #text{
+           display:flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+         
+       }
+       #input input{
+           padding: 0.8rem 0.5rem;
+           width:15rem;
+           margin-top: 1.4rem;
+       }
+       #click button{
+           padding: 0.5rem 0.5rem;
+           margin: 1.4rem 1.4rem;
+         font-size: 1.1rem;
+        font-weight:500;
+        width: 8rem;
+       }
+       /* middle end  */
+       /*add start  */
+.add{
+    padding: 1rem;
+}
+.add_details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 0rem 4rem; */
+}
+.add_writer h1{
+    font-size: 2.5rem;
+}
+.add_writer p{
+    margin-top: 0.3rem;
+font-size: 1.2rem;    
+}
+.add_pic img{
+    width: 20rem;
+    height: 18rem;
+}
+   .ques{
+    font-size: 1.2rem;
+    font-weight: 100;
+   }
+   #f_head h2{
+    font-size:2rem;
+   }
+   #fotter {
+    padding: 0rem;
+   }
+   #fotter p{
+    font-size: 1rem;
+   }
+   #foot{
+    display:flex;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    align-items: baseline;
+    line-height: 2.5rem;
+    flex-direction: column;
+   }
+   
+}
